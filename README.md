@@ -1,46 +1,31 @@
 Mini Fintech Dashboard
 
-A full-stack MERN application for tracking income and expenses.
+## Setup Instructions
 
-Features
+### Backend
+cd backend
+npm install
+npm run dev
 
--Add transactions
--Delete transactions
--Track balance
--View total income
--View total expenses
--Income vs Expense chart
--MongoDB Atlas database
+### Frontend
+Open index.html in browser
 
-Tech Stack
+## Features
+- Add transactions
+- Filter by category/date
+- Income/Expense summary
+- Pie chart visualization
+- Insight system
 
-Frontend
-  -React.js
-  -Axios
-  -Chart.js
-  
-Backend
- -Node.js
- -Express.js
- 
-Database
-  -MongoDB Atlas
-  -Mongoose
-  
-Installation
+## Tech Stack
+Node.js, Express, MongoDB, JavaScript
 
-Backend
-  cd backend
-  npm install
-  npm run dev
+## API
+POST /api/transactions  
+GET /api/transactions  
+DELETE /api/transactions/:id  
+GET /api/transactions/filter
 
-  
-Frontend
-  cd frontend
-  npm install
-  npm start
-
-  
-Author
-
-Liya Siswana
+## Live Links
+Frontend: https://your-vercel-link  
+Backend: https://your-render-link
